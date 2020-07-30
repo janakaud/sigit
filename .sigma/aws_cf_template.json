@@ -183,7 +183,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigsigitDeployment1596111706663": {
+    "apigsigitDeployment1596111756889": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
