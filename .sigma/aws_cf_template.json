@@ -23,7 +23,9 @@
               "Ref": "apigsigit"
             },
             ".execute-api.",
-            "us-east-1",
+            {
+              "Ref": "AWS::Region"
+            },
             ".amazonaws.com/",
             "sigit",
             "/sigit"
@@ -181,7 +183,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigsigitDeployment1596107548825": {
+    "apigsigitDeployment1596109889994": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {

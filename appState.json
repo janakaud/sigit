@@ -24,10 +24,11 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sigitsigitany",
+            "resourceName": "apigsigitsigitany",
             "config": {}
           }
-        ]
+        ],
+        "lastUpdated": 1596109874978
       }
     },
     "openFiles": [
@@ -35,11 +36,10 @@
     ],
     "currentFileId": "48e815c2-c35b-42f9-81a6-671bd6ac3a62",
     "resources": {
-      "apigusEast1sigitsigitany": {
-        "name": "apigusEast1sigitsigitany",
+      "apigsigitsigitany": {
+        "name": "apigsigitsigitany",
         "type": "API_GATEWAY",
         "config": {
-          "selectedRegion": "us-east-1",
           "apiType": 1,
           "apiMode": 0,
           "apiName": "sigit",
@@ -59,7 +59,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -77,14 +77,14 @@
     }
   },
   "PROJECT_META": {
+    "sigmaVersion": "1.4.2",
     "projectName": "sigit",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
-    "platformRegions": {},
     "language": "nodejs",
-    "sigmaVersion": "1.4.1.1"
+    "platformRegions": {}
   },
   "VCS_STATE": {
     "provider": "GitHub",
